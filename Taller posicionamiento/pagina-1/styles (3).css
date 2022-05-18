@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h1 {
+    font-size: 3.2em;
+
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 1.25em;
+}
+
+header .logo {
+    margin: 0;
+    padding: 25px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+header nav button {
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0;
+    border-color: transparent;
+    margin: 10px;
+}
+
+header nav button:hover {
+    background-color: rgb(219, 219, 219);
+    margin: 10px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    padding-right: 24px;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+header nav div {
+    margin: 15px;
+}
+
+header .contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header a {
+    padding: 5px 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+
+}
+
+header a:hover {
+    color: blue;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+}
+
+
+.menu_center{
+    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: row;
+    height: 60px;
+    background-color: rgb(219, 219, 219);
+}
+
+.menu_center a {
+    margin: 15px;
+    color:black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.menu_center a:hover{
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    flex-direction: row;
+    height: 60px;
+    background-color: rgb(219, 219, 219);
+}
+
+.menu a {
+    color:black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.menu a:hover{
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.menu .icon_menu {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+    margin-right: 0;
+    padding-right: 0;
+    
+}
+
+.menu .icon_menu .img_file {
+    max-width: 70%;
+    
+}
+
+
+.print {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 55vh;
+    background-image: url("media/prog.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.print button {
+    color: rgb(0, 0, 0);
+    background-color: rgb(253, 254, 255);
+    box-shadow: 5px 5px 5px black;
+    margin-top: 30px;
+}
+
+.print button:hover {
+    background-color: rgb(146, 146, 146);
+}
+
+.print h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2.2em;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 5px black;
+}
+
+.cursos {
+    background-color: rgb(40, 40, 40);
+    color: white;
+    text-align: center;
+}
+
+.cursos .contenedor h2 {
+    padding-top: 15px;
+}
+
+.programas {
+    display: flex;
+    justify-content: center;
+}
+
+.programas p {
+    display: block;
+    margin-bottom: 30px;
+
+}
+
+.carta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    background-color: rgba(0, 0, 0, 0.431);
+    box-shadow: 2px 2px 5px black;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+}
+
+.carta p {
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 10px;
+    text-align: initial;
+    font-weight: normal;
+    color: rgb(219, 219, 219);
+
+}
+.carta h3{
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.carta p{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    color: white;
+    background-color: rgb(112, 112, 255);
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px black;
+
+}
+
+button:hover {
+    background-color: rgb(2, 43, 116);
+
+}
+
+.empezar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    height: 40vh;
+}
+
+.empezar p {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.empezar button {
+    font-size: 2em;
+    background-color: blueviolet;
+    color: white;
+}
+
+.empezar button:hover {
+    background-color: rgb(81, 24, 120);
+}
+
+footer p {
+    margin: o;
+    padding: 20px;
+    color: rgb(100, 100, 100);
+}
+
+footer {
+    background-color: white;
+}
+
+.footerdiv {
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+    align-items: flex-start;
+}

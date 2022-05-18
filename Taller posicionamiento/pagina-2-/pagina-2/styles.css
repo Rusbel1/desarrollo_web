@@ -1,0 +1,283 @@
+header .contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    font-size: 1.5em;
+}
+h2 {
+    font-size: 2em;
+}
+
+header .logo {
+    margin: 0;
+    padding: 25px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    padding-right: 24px;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+body{
+    background: rgb(27,119,181);
+    background: radial-gradient(circle, rgba(27,119,181,0.6488970588235294) 12%, rgba(255,255,255,1) 100%);
+}
+
+header nav button {
+    
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0;
+    border-color: transparent;
+    margin: 10px;
+}
+
+header nav button:hover {
+    background-color: rgb(219, 219, 219);
+    margin: 10px;
+}
+
+.logo-empresa{
+    width: 7%;
+    height: 7%;   
+}
+.contenedor{
+    padding-bottom: 1%;
+    border-bottom: solid;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-and-title {
+    display: flex;
+    margin-left: 1%;
+    justify-content: left;
+    align-items: center;
+    column-gap: 1%;
+}
+.logo-and-title input{
+    height: 30px;
+    width: 40%;
+}
+.all-section-container{
+    margin-left: 5%;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+.all-second-container{
+    display: grid;
+    margin-left: 7%;
+    grid-template-columns: 60% 40%;
+    
+}
+
+.container-container{
+   display: flex;
+   flex-direction: column; 
+   margin-right: 2%;
+   
+}
+
+
+/* .titulo_curso .content-curso{
+    display: flex;
+    width: 20%;
+    text-align: center;
+    
+} */
+
+.informacion{
+    margin-top: 7%;
+    border: solid;
+
+}
+
+.titulo_curso{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.titulo_curso .img_curso{
+    display: flex;
+    align-items: center;
+}
+.img_curso img{
+    width: 400px;
+    height: 300px;
+    margin-right: 40px;
+    
+}
+
+
+.h2-p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.content-curso{
+    margin-left: 5%;
+    margin-right: 40%;
+    text-align: left;
+}
+.inputs{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+.inputs input{
+    height: 30px;
+    width: 50%;
+    margin-right: 5%;
+    border: 1px solid black;
+}
+.inputs button{
+    height: 30px;
+    width: 20%;
+    align-items: center;
+}
+
+button{
+    background-color: white;
+    border: 2px solid black;
+    font-size: 15px;
+}
+
+.contenido-curso{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    border: solid ;
+}
+
+.texto-otros{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    
+}
+.otros-cursos{
+    border: solid;
+}
+
+.texto-curso{
+    width: 60%;
+}
+
+.img-cursos{
+    display: flex;
+    justify-content: center;
+   
+    width: 5%;
+}
+.precio{
+  
+    display: flex;
+    /* margin-left: 7%; */
+    margin-right: 10%;
+    justify-content: center;
+    align-items: center;
+    column-gap: 7%;
+
+}
+.info-cursos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;   
+    
+}
+.corazon{
+    display: flex;
+    align-items: center;
+    height: 7%;
+    width: 7%;
+    margin-left: 10%;
+}
+.corazon img{
+    width: 500%;
+    height: 500%;
+}
+
+.javascript{
+    height: 70px;
+    width: 70px;
+}
+.precio-informacion p {
+    font-size: 300%;
+    margin-left: 7%;
+}
+.botones{
+    display: flex;
+    flex-direction: column;
+   margin-left: 50px;
+   margin-right: 50px;  
+    row-gap: 20px;
+}
+.botones button{
+    height: 50px;
+}
+.texto-informacion div{
+    margin-left: 8%;
+}
+/* .p-informacion{
+    margin-left: 5%;
+} */
+footer p {
+    margin: o;
+    padding: 20px;
+    color: rgb(100, 100, 100);
+    font-size: 130%;
+}
+.contenedor-footer{
+    margin-top: 2%;
+    border-top: solid;
+}
+
+footer {
+    background-color: white;
+}
+.contenido-curso div{
+    display: flex;
+    justify-content: start;
+    margin-left: 4%;
+    
+}
+.titulo-contenido{
+    margin-left: 4%;
+}
+.titulo_otros{
+    margin-left: 4%;
+}
+.texto-otros h3{
+    margin: 15px;
+    font-size: 30px;
+   
+}
+.texto-otros p {
+    margin: 15px;
+    font-size: 20px;
+}
+
+
+
