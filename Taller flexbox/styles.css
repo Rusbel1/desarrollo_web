@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color:  rgb(244, 157, 255);
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: 2rem;
+    align-items: center;
+    display: flex;
+    padding: 5px;
+    position: fixed;
+}
+
+.header h1{
+    font-size: 1rem;
+    
+}
+
+.pag{
+    height: 1200px;
+    margin-right: 300px;
+    margin-left: 300px;
+    border: 3px solid rgba(0, 0, 0, 0.281);
+}
+
+
+.pos_center{
+    position: relative;
+    margin-top: 39px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(50, 2, 105, 0.644);
+    border: 2px solid rgb(255, 251, 1);
+    
+}
+
+.absoluto{
+    position: flex;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
+    height: 260px;
+    margin-right: 0;
+    background-color: rgb(218, 9, 165);
+    color: antiquewhite;
+    border-radius: 5px;
+}
+
+.menu{
+    background-color: chartreuse;
+    display: flex;
+    flex-direction:column;
+    margin: 10px;
+    padding: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 250px;
+    height: 260px;
+    text-align: center;
+    border: 2px solid rgb(20, 75, 192);
+    border-radius: 5px;
+    margin-left: 0;
+}
+
+
+.opciones_menu{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.cuadro{
+    margin: 20px 0 5px 5px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(174, 201, 57);
+    border-radius: 5px;
+    gap: 11px;
+    height: 100px;
+    width: 95%;
+    align-items: center;
+    background-color: bisque;
+    color: black;
+}
+
+.ps{
+    margin: 8px;
+}
+
+.inputs{
+    margin: 8px;
+}
+
+.inputs input{
+    margin: 2px 2px
+}
+
+.ps p{
+    margin: 2px 2px
+}
+
+.div_titulo{
+    display: flex;
+    align-items: center;
+    background-color:rgb(7, 7, 7);
+    color: rgb(178, 4, 231);
+    border: 1px solid black;
+    height: 2rem;
+    margin: 10px;
+    padding: 2px;
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.lorems{
+    border-radius: 5px;
+}
+
+.lorems p{
+    margin: 10px;
+    border: 2px solid aqua;
+    padding: 10px;
+    color: rgb(22, 20, 20);
+    background-color: rgba(110, 255, 187, 0.432);
+    
+}
