@@ -16,6 +16,14 @@ codigo.addEventListener("keydown", (e) => {
   }
 });
 
+responsable.addEventListener("keydown", (e) => {
+  if (esalphanum(e.target.value)) {
+    errorResp.classList.remove("hidden");
+  } else {
+    errorResp.classList.add("hidden");
+  }
+});
+
 addEventListener("submit", () => {});
 
 function esalphanum(value) {
