@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maqueta</title>
+    <link href="../dist/output.css" rel="stylesheet">
+    
+    
+
+    <style>
+        .caja{
+            border: 1px solid rgb(40, 105, 204)
+        }        
+
+    </style>
+</head>
+<body>
+
+    <nav class="bg-indigo-500">
+        <div class="container py-2 mx-auto px-10 flex flex-wrap items-center justify-between">
+            
+            <!-- BEGIN logo --> 
+            <div  class="flex items-center">
+                <img src="images/logou2.png" class="h-14"> 
+                <h2 class="text-white">Universidad de Córdoba</h2>
+            </div>
+            <!-- END logo -->
+
+
+            <!-- ENG Botón responsive -->
+            <button id="bntResponsive" class="p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-white" data-collapse-toggle="mobile-menu" type="button"  aria-controls="mobile-menu" aria-expanded="false">
+                <svg id="iconOpen" class="text-white w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                <svg id="iconClose" class="text-white hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+            </button>
+            <!-- END Botón responsive -->
+
+
+            <!-- BEGIN items adicionales -->
+            <div class="hidden md:block md:w-auto w-full " id="mobile-menu">
+                <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+                    <li>
+                        <a href="#" class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-white md:p-0 dark:text-white" aria-current="page">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">About</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Services</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 pr-4 pl-3 text-white hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Contact</a>
+                    </li>
+                </ul>
+              </div>
+            <!-- END items adicionales -->
+            
+            
+        </div>
+    </nav>
+
+    <nav class="md:bg-gray-800 bg-gray-500 p-1">
+        <div class="container mx-auto px-10 w-full">
+            <ul class="flex flex-col justify-center md:flex-row mt-1 text-xs md:text-sm">
+                <li>
+                    <a href="#" class="transition hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 
+                                      block py-2
+                                    text-gray-100 border-b border-gray-400 
+                                      hover:rounded-md text-sm 
+                                      hover:bg-gray-700 
+                                      hover:text-gray-200
+                                      md:border-0 md:mx-2 md:px-3" aria-current="page">Inicio</a>
+                </li>
+                <li>
+                    <a href="#" class="transition hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 
+                                        block py-2
+                                    text-gray-100 border-b border-gray-400 hover:rounded-md text-sm hover:bg-gray-700 hover:text-gray-200
+                                      md:border-0 md:mx-2 md:px-3" aria-current="page">Mis Cursos</a>
+                </li>
+                <li>
+                    <a href="#" class="transition hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300  
+                                        block py-2
+                                    text-gray-100 border-b border-gray-400 hover:rounded-md text-sm hover:bg-gray-700 hover:text-gray-200
+                                      md:border-0 md:mx-2 md:px-3" aria-current="page">Calificaciones</a>
+                </li>
+                <li>
+                    <a href="#" class="transition hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 
+                                        block py-2
+                                    text-gray-100 border-b border-gray-400 hover:rounded-md text-sm hover:bg-gray-700 hover:text-gray-200
+                                      md:border-0 md:mx-2 md:px-3" aria-current="page">Insignias</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="bg-gray-400 py-5">
+        <div class="bg-white container mx-auto px-5 py-4 rounded-xl">
+            
+            <h1 class="text-center text-3xl">Mis Proyectos</h1>
+             
+            <p class="text-center mb-5">
+                Administración general de mis proyectos
+            </p>
+
+            <div class="grid md:grid-cols-3 sm:grid-cols-2 gap-5">
+
+                <div class="col-span-1" >
+                    <div class="shadow-lg p-3">
+                        <h1 class="text-center text-3xl">Nuevo proyecto</h1>
+                        <form action="#" id="formulario">
+                            <table >
+                                <tr>
+                                    <td>Código del proyecto</td>
+                                    <td>
+                                        <input class="caja" type="text" name="codigo" id="codigo">
+                                        <span id="errorId" class="hidden text-xs text-red-600">Datos no válidos en el codigo</span>
+                                    </td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>Nombre</td>
+                                    <td>
+                                        <input class="caja" type="text" name="nombre" id="nombre">
+                                        <span id="errorNombre" class="hidden text-xs text-red-600">Datos no válidos en el nombre</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Tipo Proyecto</td>
+                                    <td>
+                                        <select name="tipo" id="tipo" class="caja">
+                                            <option value="">Seleccione el tipo de proyecto</option>
+                                            <option value="Investigación">Investigación</option>
+                                            <option value="Extensión">Extensión</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Fecha Inicio</td>
+                                    <td><input class="caja" type="date" name="fecha_ini" id="fecha_ini"></td>
+                                </tr>
+                                <tr>
+                                    <td>Fecha Finalización</td>
+                                    <td><input class="caja" type="date" name="fecha_fin" id="fecha_fin"></td>
+                                </tr>
+                                <tr>
+                                    <td>Responsable</td>
+                                    <td><input class="caja" type="text" name="responsable" id="responsable"></td>
+                                </tr>
+                                <tr>
+                                    <td>Presupuesto</td>
+                                    <td><input class="caja" type="text" name="presupuesto" id="presupuesto"></td>
+                                </tr>
+                                <tr>
+                                    <td>Tipo Persona</td>
+                                    <td>
+                                        Estudiante
+                                        <input type="radio" name="tipo_persona" id="tipo_persona" value="estudiante">
+                                        Profesor
+                                        <input type="radio" name="tipo_persona" id="tipo_persona" value="profesor">
+                                    </td>
+                                </tr>
+
+                                <!-- Datos profesor -->
+                                <tr>
+                                    <td>Tipo profesor</td>
+                                    <td>
+                                        <select name="tipo_profesor" id="tipo_profesor" class="caja">
+                                            <option value="Planta">Planta</option>
+                                            <option value="Catedratico">Catedratico</option>
+                                            <option value="Ocasional">Ocasional</option>
+                                        </select>
+                                    </td>
+                                </tr>
+
+                                <!-- Datos estudiante -->
+                                <tr>
+                                    <td>Semestre Estudiante</td>
+                                    <td>
+                                        <select name="semestre" id="semestre" class="caja">
+                                            <option value="I">I</option>
+                                            <option value="II">II</option>
+                                            <option value="III">III</option>
+                                            <option value="IV">IV</option>
+                                            <option value="V">V</option>
+                                            <option value="VI">VI</option>
+                                            <option value="VII">VII</option>
+                                            <option value="VIII">VIII</option>
+                                            <option value="VI">IX</option>
+                                            <option value="VI">X</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                        <input type="submit" id="btnAgregar" value="Registrar Proyecto" class="bg-blue-400 p-2 border border-cyan-800" >
+                                    </td>
+                                </tr>
+                                
+                            </table>
+                        </form>
+                    </div>                    
+                </div>
+                
+                <div class="col-span-2">
+                    <h1 class="text-center text-3xl">Listado de proyectos</h1>
+                    <table class="min-w-full">
+                        <thead class="bg-slate-50 border-b border-slate-200">
+                            <tr>
+                                <th scope="col" class="px-6 py-3 text-left text-sm font-medium text-slate-900">
+                                    Nombre
+                                </th>
+                                <th scope="col" class="px-6 py-3 text-left text-sm font-medium text-slate-900">
+                                    Responsable
+                                </th>
+                                <th scope="col" class="px-6 py-3 text-left text-sm font-medium text-slate-900">
+                                    Fecha Inicio
+                                </th>
+                                <th scope="col" class="px-6 py-3 text-left text-sm font-medium text-slate-900">
+                                    Fecha Fin
+                                </th>
+                                <th scope="col" class="px-6 py-3 text-left text-sm font-medium text-slate-900">
+                                    Dias de Ejecución
+                                </th>
+                                <th scope="col" class="px-6 py-3 text-left text-sm font-medium text-slate-900">
+                                    Acciones
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="odd:bg-white even:bg-slate-50">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900">
+                                    -
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">
+                                    -
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">
+                                    -
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">
+                                    -
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">
+                                    0
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">                                    
+                                    <input type="button" value="Editar" class="bg-green-600 text-green-200 text-sm p-1 border border-green-800">
+                                    <input type="button" value="Eliminar" class="bg-red-600 text-red-200 text-sm p-1 border border-red-800">
+                                    <input type="button" value="Vista Rápida" class="bg-yellow-600 text-yellow-200 text-sm p-1 border border-yellow-800">
+                                </td>
+                            </tr>
+                            <tr class="odd:bg-white even:bg-slate-50">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900">
+                                    -
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">
+                                    -
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">
+                                    -
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">
+                                    -
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">
+                                    0
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">                                    
+                                    <input type="button" value="Editar" class="bg-green-600 text-green-200 text-sm p-1 border border-green-800">
+                                    <input type="button" value="Eliminar" class="bg-red-600 text-red-200 text-sm p-1 border border-red-800">
+                                    <input type="button" value="Vista Rápida" class="bg-yellow-600 text-yellow-200 text-sm p-1 border border-yellow-800">
+                                </td>
+                            </tr>
+                            <tr class="odd:bg-white even:bg-slate-50">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900">
+                                    -
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">
+                                    -
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">
+                                    -
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">
+                                    -
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">
+                                    0
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-600">                                    
+                                    <input type="button" value="Editar" class="bg-green-600 text-green-200 text-sm p-1 border border-green-800">
+                                    <input type="button" value="Eliminar" class="bg-red-600 text-red-200 text-sm p-1 border border-red-800">
+                                    <input type="button" value="Vista Rápida" class="bg-yellow-600 text-yellow-200 text-sm p-1 border border-yellow-800">
+                                </td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <footer class="bg-gray-700 text-center text-white py-5 text-sm">
+        <div class="flex justify-center"><img src="images/logou2.png" alt=""></div>
+        <div>Diplomado en desarrollo de aplicaciones orientadas a la nube</div>
+        <div>Universidad de Córdoba</div>
+    </footer>
+    
+    <script src="scripts/myscript.js"></script>
+</body>
+</html>
