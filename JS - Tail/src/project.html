@@ -140,24 +140,20 @@
                                 </tr>
                                 <tr>
                                     <td>Fecha Inicio</td>
-                                    <td><input class="caja" type="date" name="fecha_ini" id="fecha_ini"></td>
+                                    <td><input class="caja" type="date" name="fecha_ini" id="fecha_ini" onchange="IntervaloFecha()"><span id="errorFechaIni" class="hidden text-xs text-red-600">Datos no válidos en el codigo</span></td>
                                 </tr>
                                 <tr>
                                     <td>Fecha Finalización</td>
-                                    <td><input class="caja" type="date" name="fecha_fin" id="fecha_fin"></td>
+                                    <td><input disabled class="caja" type="date" name="fecha_fin" id="fecha_fin"><span id="errorFechaFin" class="hidden text-xs text-red-600">Datos no válidos en el codigo</span></td>
                                 </tr>
                                 <tr>
                                     <td>Responsable</td>
-                                    <td><input class="caja" type="text" name="responsable" id="responsable">
-                                    <span id="errorResp" class="hidden text-xs text-red-600">Datos no válidos sobre el responsable</span>
-                                    </td>
-                                    
+                                    <td><input class="caja" type="text" name="responsable" id="responsable"><span id="errorResponsable" class="hidden text-xs text-red-600">Datos no válidos en el codigo</span></td>
                                 </tr>
                                 <tr>
                                     <td>Presupuesto</td>
-                                    <td><input class="caja" type="text" name="presupuesto" id="presupuesto">
-                                        <span id="errorPres" class="hidden text-xs text-red-600">Datos no válidos en el presupuesto</span>
-                                    </td>
+                                    
+                                    <td><input class="caja" type="text" name="presupuesto" id="presupuesto"><span id="errorPresupuesto" class="hidden text-xs text-red-600">Datos no válidos en el codigo</span></td>
                                 </tr>
                                 <tr>
                                     <td>Tipo Persona</td>
@@ -200,7 +196,7 @@
                                 <tr>
                                     <td>&nbsp;</td>
                                     <td>
-                                        <input onclick="Registrar()" type="" id="btnAgregar" value="Registrar Proyecto" class="bg-blue-400 p-2 border border-cyan-800" >
+                                        <input onclick="Registrar()" type="" id="btnAgregar" value="Registrar Proyecto" class="bg-blue-400 p-2 border border-cyan-800">
                                     </td>
                                 </tr>
                                 
